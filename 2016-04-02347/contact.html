@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset-"utf-8">
+<title> <b> CASE ON DELIVERY  <b> </title>
+<style type="text/css">
+           body {background-color:pink}
+		   input{background-color:pink; color;blue; font-weight:bold}
+		   
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul> 
+  <li><a href="home.php">Home</a></li>
+  <li><a href="sign in.html">sign in</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="payment.html">payment</a></li>
+    <li><a href="product.html">product</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+ </ul><br>
+ 
+<form method="post" action="http://www.form.com/delivery.php">
+<fieldset>
+
+ <legend>
+ Contact details
+ </legend>
+ <label>HOME NUMBER:<br />
+ <input type="number" name="HOME NUMBER" placeholder="enter home-number" required="required"/>
+ </label><br />
+ 
+<label>COUNTRY:<br />
+<input type="text" name="COUNTRY" placeholder=" enter country"  required="required"/>
+</label><br />
+
+<label>STREET NUMBER: <br />
+<input type="text" name="street number"   />
+</label><br />
+
+
+ <label>Telephone:<br /> 
+<input type="text" name="telephone"  />
+</label> 
+</fielset>
+</form>
+</body>
+</html>
