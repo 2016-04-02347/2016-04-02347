@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<?xml version="1.0">
+
+<html>
+
+<head><meta charset-"utf-8"><center>
+<title> <b> ONLINE SHOPPING <b> </title>
+
+    <style type="text/css">
+           body {background-color:violet}
+		   input{background-color:pink; color;blue; font-weight:bold}
+		  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+ 
+   <li><a href="home.php">Home</a></li>
+  <li><a href="sign in.html">sign in</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="payment.html">payment</a></li>
+    <li><a href="product.html">product</a></li>
+	  <li style="float:right"><a class="active" href="#about">About</a></li>
+
+</ul><br>
+
+<form method="post" action="http://www.form.com/select.php">
+    
+	 <p> product:
+	 <input type="text" name="product" placeholder="enter product name" size="15" maxlenght="30" required="required"/>
+	 </p>
+	 
+	 <p> color:
+	 <input type="text" name="color" placeholder="enter color" size="15" maxlenght="30" required="required"/>
+	 </p>
+	 
+	 <p>Please select your favorite size(s):  <br /> 
+     <input type="checkbox" name="size"     value="large" checked="checked" /> large  
+     <input type="checkbox" name="size"     value="medium" />medium  
+     <input type="checkbox" name="size"     value="small" /> Small</p
+    
+     <p><input type="submit" value="Submit" ></p>
+ 
+     <p><b><i> what do you think about the service provided here</i></b> <br/> <b> please send us your <em>feedback</em>..<b/>
+     <input type="textarea" name="comment" colspan="40" rowspan="5" placeholder=" Enter your comment!.....">
+     </textarea>
+     </p>
+</form> 
+</body>
+</html>
